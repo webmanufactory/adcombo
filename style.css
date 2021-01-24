@@ -391,13 +391,15 @@ p {
     -o-transition: .3s ease;
     transition: .3s ease;
 }
+.slider__img:hover {
+    -webkit-filter: drop-shadow(4px 8px 8px #00C368);
+            filter: drop-shadow(4px 8px 8px #00C368);
+}
 .slider__img:hover,
 .slider__img:hover path,
 .slider__img:hover rect,
 .slider__img:hover circle {
     stroke: #00C368;
-    -webkit-filter: drop-shadow(4px 8px 8px #00C368);
-            filter: drop-shadow(4px 8px 8px #00C368);
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
