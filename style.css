@@ -778,8 +778,17 @@ p {
         margin-right: 0;
     }
     .slider__img:hover {
-        -webkit-filter: none;
-                filter: none;
+        -webkit-filter: initial;
+                filter: initial;
+    }
+    .slider__img:hover,
+    .slider__img:hover path,
+    .slider__img:hover rect,
+    .slider__img:hover circle {
+        stroke: initial;
+        -webkit-transition: .3s ease;
+        -o-transition: .3s ease;
+        transition: .3s ease;
     }
     .slider__btn {
         background-color: transparent;
