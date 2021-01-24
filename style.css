@@ -305,7 +305,7 @@ p {
     width: 500px;
     height: 500px;
     background-color: transparent;
-    background: url(/img/bg/mainBg_left.png) center center / cover;
+    background: url(img/bg/mainBg_left.png) center center / cover;
     z-index: 0;
 
 }
@@ -317,7 +317,7 @@ p {
     width: 500px;
     height: 500px;
     background-color: transparent;
-    background: url(/img/bg/mainBg_right.png) center / cover;
+    background: url(img/bg/mainBg_right.png) center / cover;
     z-index: -1;
 
 }
@@ -538,7 +538,7 @@ p {
     top: 0;
     width: 40px;
     height: 26px;
-    background: url(/img/icons/quotes_up.svg) center center / cover;
+    background: url(img/icons/quotes_up.svg) center center / cover;
     -webkit-transform: translateX(-120%);
         -ms-transform: translateX(-120%);
             transform: translateX(-120%);
@@ -550,7 +550,7 @@ p {
     right: 0;
     width: 40px;
     height: 26px;
-    background: url(/img/icons/quotes_down.svg) center center / cover;
+    background: url(img/icons/quotes_down.svg) center center / cover;
 }
 .reviews-main__quote {
     margin-bottom: 15px;
@@ -833,7 +833,7 @@ p {
         left: 50px;
         width: 40px;
         height: 26px;
-        background: url(/img/icons/quotes_up_mob.svg) center center / cover;
+        background: url(img/icons/quotes_up_mob.svg) center center / cover;
     }
     .reviews-main__text::after {
         content: "";
@@ -842,7 +842,7 @@ p {
         right: 0;
         width: 40px;
         height: 26px;
-        background: url(/img/icons/quotes_down_mob.svg) center center / cover;
+        background: url(img/icons/quotes_down_mob.svg) center center / cover;
     }
     .reviews-main__quote {
         margin-bottom: 15px;
