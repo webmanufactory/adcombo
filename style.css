@@ -391,7 +391,7 @@ p {
     -o-transition: .3s ease;
     transition: .3s ease;
 }
-.slider__img:hover {
+.slider__img:hover svg {
     -webkit-filter: drop-shadow(4px 8px 8px #00C368);
             filter: drop-shadow(4px 8px 8px #00C368);
 }
@@ -776,19 +776,6 @@ p {
     .item-2, 
     .item-6 {
         margin-right: 0;
-    }
-    .slider__img:hover {
-        -webkit-filter: initial;
-                filter: initial;
-    }
-    .slider__img:hover,
-    .slider__img:hover path,
-    .slider__img:hover rect,
-    .slider__img:hover circle {
-        stroke: initial;
-        -webkit-transition: .3s ease;
-        -o-transition: .3s ease;
-        transition: .3s ease;
     }
     .slider__btn {
         background-color: transparent;
