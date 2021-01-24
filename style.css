@@ -777,6 +777,10 @@ p {
     .item-6 {
         margin-right: 0;
     }
+    .slider__img:hover {
+        -webkit-filter: none;
+                filter: none;
+    }
     .slider__btn {
         background-color: transparent;
         border: none;
