@@ -184,7 +184,7 @@ img {
     color: #A6ABBD;
 }
 .slick-dots li button:before {
-    font-size: 12px;
+    font-size: 35px;
 }
 .slick-dots li button:before {
     opacity: 1;
@@ -340,7 +340,7 @@ p {
     height: 4px;
     width: 184px;
     position: absolute;
-    top: -30%;
+    top: -25px;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -385,8 +385,8 @@ p {
     margin: 0 auto 20px;
     display: block;
     max-width: 70px;
-    -webkit-filter: drop-shadow(4px 4px 8px #747886);
-            filter: drop-shadow(4px 4px 8px #747886);
+    -webkit-filter: drop-shadow(4px 8px 8px #747886);
+            filter: drop-shadow(4px 8px 8px #747886);
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
@@ -396,8 +396,8 @@ p {
 .slider__img:hover rect,
 .slider__img:hover circle {
     stroke: #00C368;
-    -webkit-filter: drop-shadow(4px 4px 8px #00C368);
-            filter: drop-shadow(4px 4px 8px #00C368);
+    -webkit-filter: drop-shadow(4px 8px 8px #00C368);
+            filter: drop-shadow(4px 8px 8px #00C368);
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
     transition: .3s ease;
@@ -438,7 +438,7 @@ p {
     height: 4px;
     width: 184px;
     position: absolute;
-    top: -30%;
+    top: -20px;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
